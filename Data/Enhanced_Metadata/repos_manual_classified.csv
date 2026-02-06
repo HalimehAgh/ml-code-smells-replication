@@ -1,0 +1,54 @@
+GitHub Repo,Stars,domain_description,domain_topics,suggested_domain,manual_classification,notes
+TheAlgorithms/Python,209443,All Algorithms implemented in Python,"algorithm, algorithm-competitions, algorithms-implemented, algos, community-driven, education, hacktoberfest, interview, learn, practice, python, searches, sorting-algorithms, sorts",Unknown,Domain-Specific Applications,general python algorithms / educational
+home-assistant/core,81605,:house_with_garden: Open source home automation that puts local control and privacy first.,"asyncio, hacktoberfest, home-automation, internet-of-things, iot, mqtt, python, raspberry-pi",Unknown,Domain-Specific Applications,IoT / home automation
+commaai/openpilot,56169,"openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.","advanced-driver-assistance-systems, driver-assistance-systems, robotics",Domain-Specific Applications,Domain-Specific Applications,
+deepfakes/faceswap,54523,Deepfakes Software For All,"deep-face-swap, deep-learning, deep-neural-networks, deepface, deepfakes, deeplearning, face-swap, faceswap, fakeapp, machine-learning, myfakeapp, neural-nets, neural-networks, openfaceswap",Computer Vision,Computer Vision,
+google-research/google-research,36441,Google Research,"ai, machine-learning, research",Unknown,ML Frameworks / Libraries,includes several sub-projects /generic researches
+magenta/magenta,19667,Magenta: Music and Art Generation with Machine Intelligence,,Natural Language Processing,Domain-Specific Applications,Music & art generation with 
+tensorflow/tfjs,18968,A WebGL accelerated JavaScript library for training and deploying ML models.,"deep-learning, deep-neural-network, gpu-acceleration, javascript, machine-learning, neural-network, typescript, wasm, web-assembly, webgl",ML Frameworks / Libraries,ML Frameworks / Libraries,
+jantic/DeOldify,18416,A Deep Learning based project for colorizing and restoring old images (and video!),,Computer Vision,Computer Vision,deep learning model for restoring old images
+UKPLab/sentence-transformers,17603,State-of-the-Art Text Embeddings,,Unknown,Natural Language Processing,text embeddings / transformer models
+jaakkopasanen/AutoEq,14749,Automatic headphone equalization from frequency responses,,Unknown,Domain-Specific Applications,signal processing
+microsoft/ai-edu,13977,"AI education materials for Chinese students, teachers and IT professionals.",,Unknown,Domain-Specific Applications,AI education tools
+pymc-devs/pymc3,9265,Bayesian Modeling and Probabilistic Programming in Python,"bayesian-inference, mcmc, probabilistic-programming, pytensor, python, statistical-analysis, variational-inference",Data Science / Traditional ML,Data Science / Traditional ML,
+apache/beam,8304,Apache Beam is a unified programming model for Batch and Streaming data processing.,"batch, beam, big-data, golang, java, python, sql, streaming",MLOps / Deployment,MLOps / Deployment,
+GoogleCloudPlatform/training-data-analyst,8292,Labs and demos for courses for GCP Training (http://cloud.google.com/training).,,Unknown,MLOps / Deployment,Educational / usecases for tool / ML pipelines
+GoogleCloudPlatform/python-docs-samples,7839,Code samples used on cloud.google.com,"python, samples",Unknown,MLOps / Deployment,cloud 
+uber/causalml,5589,Uplift modeling and causal inference with machine learning algorithms,"causal-inference, incubation, machine-learning, uplift-modeling",Unknown,Data Science / Traditional ML,causal inference
+google/clusterfuzz,5478,Scalable fuzzing infrastructure.,"fuzzing, security, stability, vulnerabilities",Natural Language Processing,MLOps / Deployment,security testing tool
+quantumlib/Cirq,4712,"Python framework for creating, editing, and invoking Noisy Intermediate-Scale Quantum (NISQ) circuits.","algorithms, api, cirq, google, google-quantum, nisq, python, quantum, quantum-algorithms, quantum-circuit, quantum-circuit-simulator, quantum-computer-simulator, quantum-computing, quantum-development-kit, quantum-information, quantum-programming, quantum-programming-language, quantum-simulation, sdk, simulation",ML Frameworks / Libraries,ML Frameworks / Libraries,
+facebookresearch/nevergrad,4118,A Python toolbox for performing gradient-free optimization,,Unknown,Data Science / Traditional ML,optimization tool
+Belval/TextRecognitionDataGenerator,3571,A synthetic data generator for text recognition,"data, dataset, fake, ocr, synthetic, text, text-recognition, training-set-generator",Natural Language Processing,Computer Vision,image processing / text recognition
+magenta/ddsp,3115, DDSP: Differentiable Digital Signal Processing,,Unknown,Domain-Specific Applications,signal processing
+pgmpy/pgmpy,3051,Python library for causal inference and probabilistic modeling.,"bayesian-networks, causal-discovery, causal-effect, causal-identification, causal-inference, causal-models, causal-prediction, causal-validation, graphical-models, hacktoberfest, mixed-data, probabilistic-inference, python, simulation, synthetic-data",Data Science / Traditional ML,Data Science / Traditional ML,statistical modeling /classical ML
+GoogleCloudPlatform/professional-services,2944,Common solutions and tools developed by Google Cloud's Professional Services team. This repository and its contents are not an officially supported Google product.,"bigquery, examples, gke, google-cloud-compute, google-cloud-dataflow, google-cloud-ml, google-cloud-platform, solutions, tools",ML Frameworks / Libraries,MLOps / Deployment,cloud tool / data pipelines 
+nutonomy/nuscenes-devkit,2566,The devkit of the nuScenes dataset.,,Unknown,Domain-Specific Applications,autonomous driving
+tensorflow/federated,2397,An open-source framework for machine learning and other computations on decentralized data.,,ML Frameworks / Libraries,ML Frameworks / Libraries,
+hastagAB/Awesome-Python-Scripts,2263,A Curated list of Awesome Python Scripts that Automate Stuffs. ,hacktoberfest,Unknown,Domain-Specific Applications,curated list of several python scripts to automatize
+tensorflow/privacy,1985,Library for training machine learning models with privacy for training data,"machine-learning, privacy",ML Frameworks / Libraries,ML Frameworks / Libraries,
+arviz-devs/arviz,1729,Exploratory analysis of Bayesian models with Python,"bayesian, closember, python",Data Science / Traditional ML,Data Science / Traditional ML,
+mlperf/training,1715,Reference implementations of MLPerf® training benchmarks,"benchmark, machine-learning",Unknown,ML Frameworks / Libraries,ML training benchmarks
+ARM-software/CMSIS_5,1522,CMSIS Version 5 Development Repository,,Unknown,Domain-Specific Applications,embedded software
+geomstats/geomstats,1405,Computations and statistics on manifolds with geometric structures.,"deep-learning, geodesic, geometry, gpu-programming, lie-groups, machine-learning, manifold, neural-networks, riemannian-geometry, statistics",Unknown,ML Frameworks / Libraries,"geometric ML, math library"
+wandb/examples,1181,Example deep learning projects that use wandb's features.,,Unknown,Data Science / Traditional ML,Includes examples of deep learning projects
+Calamari-OCR/calamari,1166,Line based ATR Engine based on OCRopy,,Computer Vision,Computer Vision,
+guildai/guildai,889,"Experiment tracking, ML developer tools",,Unknown,MLOps / Deployment,tool to optimize ML experiments
+mittagessen/kraken,888,OCR engine for all the languages,"alto-xml, handwritten-text-recognition, hocr, htr, layout-analysis, neural-networks, ocr, optical-character-recognition, page-xml",Computer Vision,Computer Vision,handwritten text recognition
+RussTedrake/underactuated,870,The course text for MIT 6.832 (and 6.832x on edX),,Unknown,Domain-Specific Applications,robotics 
+tensorflow/data-validation,773,Library for exploring and validating machine learning data,,ML Frameworks / Libraries,ML Frameworks / Libraries,
+flatironinstitute/CaImAn,688,"Computational toolbox for large scale Calcium Imaging Analysis, including movie handling, motion correction, source extraction, spike deconvolution and result visualization.","2-photon, calcium-imaging, cnmf, deconvolution, motion-correction, source-extraction",Computer Vision,Computer Vision,
+analyticalmindsltd/smote_variants,673,A collection of 85 minority oversampling techniques (SMOTE) for imbalanced learning with multi-class oversampling and model selection features,"imbalanced-data, imbalanced-learning, oversampling, smote",Data Science / Traditional ML,Data Science / Traditional ML,
+google/ml-metadata,660,For recording and retrieving metadata associated with ML developer and data scientist workflows.,,MLOps / Deployment,MLOps / Deployment,
+masa-su/pixyz,499,"A library for developing deep generative models in a more concise, intuitive and extendable way",,Natural Language Processing,ML Frameworks / Libraries,library for generative modeling
+nanoporetech/medaka,482,Sequence correction provided by ONT Research,"medaka, nanopore",Unknown,Domain-Specific Applications,Bio-informatics / genetics
+calico/basenji,452,Sequential regulatory activity predictions with deep convolutional neural networks.,,Unknown,Domain-Specific Applications,Genomics / bioinformatics
+avrae/avrae,439,A Discord bot to streamline running D&D 5e.,"avrae, ddb, discord-bot, dnd5e, dungeons-and-dragons, hacktoberfest",Unknown,Domain-Specific Applications,discord bot app
+GoogleCloudPlatform/healthcare,386,,,Unknown,Domain-Specific Applications,healthcare
+brainiak/brainiak,358,Brain Imaging Analysis Kit,"distributed, fmri, machine-learning, neuroimaging, neuroscience",Domain-Specific Applications,Domain-Specific Applications,
+cornell-zhang/heterocl,341,HeteroCL: A Multi-Paradigm Programming Infrastructure for Software-Defined Heterogeneous Computing (FPGA'19 Best Paper),"accelerators, compiler, dsl, fpga, fpga-programming, high-level-synthesis, python",ML Frameworks / Libraries,ML Frameworks / Libraries,
+beringresearch/ivis,338,Dimensionality reduction in very large datasets using Siamese Networks,"data-visualization, dimensionality-reduction, machine-learning, neural-network, siamese-neural-network",Computer Vision,Data Science / Traditional ML,dimensionality reduction tool
+MarkUsProject/Markus,267,Git repository of MarkUs,,Unknown,Domain-Specific Applications, programming grading tool / educational
+kipoi/kipoi,238,Kipoi's model zoo API,,Unknown,Domain-Specific Applications,Genomics / bioinformatics
+sisl/NeuralVerification.jl,232,Methods to soundly verify deep neural networks,,Unknown,Domain-Specific Applications,tool to verify neural network models
+geyang/ml_logger,200,"A logger, server and visualization dashboard for ML projects",,Computer Vision,Computer Vision,
+michaelhush/M-LOOP,167,M-LOOP: Machine-learning online optimization package,,Unknown,Data Science / Traditional ML,optimization

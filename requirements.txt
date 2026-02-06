@@ -1,0 +1,52 @@
+# Python 3.10+ required
+
+# ============================================
+# Core Data Processing & Analysis
+# ============================================
+pandas>=1.3.0
+numpy>=1.21.0
+
+# ============================================
+# Statistical Analysis
+# ============================================
+scipy==1.15.3
+statsmodels>=0.13.0
+
+# ============================================
+# Visualization
+# ============================================
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# ============================================
+# Code Smell Detection
+# ============================================
+pylint==2.15.0
+
+# ============================================
+# GitHub API & Data Collection
+# ============================================
+requests>=2.25.0
+PyGithub>=1.59.0
+
+# ============================================
+# Utilities
+# ============================================
+tqdm>=4.65.0
+openpyxl>=3.0.0
+
+# ============================================
+# Optional: Jupyter for Exploratory Analysis
+# ============================================
+# jupyter>=1.0.0
+# notebook>=6.5.0
+
+# ============================================
+# Notes:
+# ============================================
+# - CodeSmile must be installed separately
+#   See: https://github.com/AISE-TUDelft/CodeSmile
+# 
+# - Standard library modules (no installation needed):
+#   os, sys, time, json, datetime, pathlib, 
+#   logging, re, subprocess, shutil, math

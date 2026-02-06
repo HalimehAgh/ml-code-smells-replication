@@ -1,0 +1,167 @@
+
+H1: LOC vs PYLINT CODE SMELLS ANALYSIS
+======================================================================
+
+Step 1: Loading data...
+  Processing small: 82 repositories...
+    ✓ Loaded small: 82 repos
+  Processing medium: 85 repositories...
+    ✓ Loaded medium: 85 repos
+  Processing large: 112 repositories...
+    ✓ Loaded large: 112 repos
+
+  [+] Total repositories: 279
+  [+] Saved to: h1_pylint_analysis_data.csv
+
+======================================================================
+DESCRIPTIVE STATISTICS
+======================================================================
+                 N  LOC_Median  Smells_Median  Density_Median  Density_Q1  Density_Q3
+size_category                                                                        
+small           82      4632.5          157.5          37.379      28.356      50.526
+medium          85     14949.0          627.0          42.821      30.301      53.456
+large          112     70376.0         2954.5          36.481      28.380      49.385
+
+  [+] Saved to: h1_descriptive_stats.csv
+
+======================================================================
+H1.0: CORRELATION ANALYSIS
+======================================================================
+
+1. LOC vs Absolute Smell Count:
+   Spearman ρ = 0.9429
+   p-value    = 3.10e-134
+   Strength   = Strong
+   Decision   = REJECT H1.0
+
+2. LOC vs Smell Density (normalized):
+   Spearman ρ = 0.0083
+   p-value    = 8.90e-01
+   Strength   = Weak
+   Decision   = FAIL TO REJECT H1.0
+
+  [+] Saved to: h1_0_correlation_results.csv
+
+======================================================================
+H1.1: GROUP COMPARISON (Small/Medium/Large)
+======================================================================
+  Small: n=82, median=37.379
+  Medium: n=85, median=42.821
+  Large: n=112, median=36.481
+
+Kruskal-Wallis Test:
+  H-statistic = 4.3284
+  p-value     = 1.15e-01
+  Decision    = FAIL TO REJECT H1.1
+
+  No significant differences found among groups.
+
+======================================================================
+ANALYSIS COMPLETE
+
+======================================================================
+COMPREHENSIVE PYLINT ANALYSIS (H2-H6)
+======================================================================
+
+Step 1: Loading age_analysis_data.csv...
+  [+] Loaded 279 repositories with age/domain data
+  [+] Updated domain information from repos_with_domains_final_complete.csv
+
+Step 2: Loading CI/CD data from repos_*_checked.csv...
+  [+] Loaded small: 84 repos with CI data
+  [+] Loaded medium: 85 repos with CI data
+  [+] Loaded large: 112 repos with CI data
+
+  [+] Merged dataset: 279 repositories
+  [+] After filtering: 279 valid repositories
+
+Step 3: Scanning Pylint results...
+
+  [+] Final dataset: 279 repositories
+  [+] Saved to: pylint_comprehensive_data.csv
+
+  CI Status: 244 with CI, 35 without
+  Domains: 7 unique domains
+  Age range: 2025 to 6056 days
+
+======================================================================
+H2: AGE VS CODE SMELLS
+======================================================================
+
+H2.0: Correlation Analysis
+  Spearman ρ = 0.0560, p = 3.52e-01
+  Strength: Weak
+  Decision: FAIL TO REJECT H2.0
+
+H2.1: Group Comparison (Young vs Mature)
+  Threshold: 7.56 years (2763 days)
+  Young (< threshold): n=139, median=36.805
+  Mature (>= threshold): n=140, median=40.447
+  Mann-Whitney U = 9178.0, p = 4.13e-01
+  Cliff's δ = -0.0567 (Negligible)
+  Decision: FAIL TO REJECT H2.1
+
+======================================================================
+H3: CONTRIBUTORS VS CODE SMELLS
+======================================================================
+
+H3.0: Correlation Analysis
+  Spearman ρ = -0.0255, p = 6.72e-01
+  Strength: Weak
+  Decision: FAIL TO REJECT H3.0
+
+H3.1: Group Comparison (Small vs Large Teams)
+  Threshold: 53.0 contributors
+  Small Teams (<= threshold): n=140, median=40.391
+  Large Teams (> threshold): n=139, median=36.828
+  Mann-Whitney U = 10290.0, p = 4.06e-01
+  Cliff's δ = 0.0576 (Negligible)
+  Decision: FAIL TO REJECT H3.1
+
+======================================================================
+H4: COMMIT FREQUENCY VS CODE SMELLS
+======================================================================
+
+H4.0: Correlation Analysis
+  Spearman ρ = -0.0244, p = 6.84e-01
+  Strength: Weak
+  Decision: FAIL TO REJECT H4.0
+
+H4.1: Group Comparison (Low vs High Activity)
+  Threshold: 189.3 commits/year
+  Low Activity (< threshold): n=139, median=37.959
+  High Activity (>= threshold): n=140, median=38.765
+  Mann-Whitney U = 9940.0, p = 7.56e-01
+  Cliff's δ = 0.0216 (Negligible)
+  Decision: FAIL TO REJECT H4.1
+
+======================================================================
+H5: CI/CD VS CODE SMELLS
+======================================================================
+
+H5.0: CI vs Non-CI Comparison
+  With CI: n=244, median=37.454
+  Without CI: n=35, median=42.325
+  Mann-Whitney U = 3719.0, p = 2.17e-01
+  Cliff's δ = -0.1290 (Negligible)
+  Decision: FAIL TO REJECT H5.0
+
+======================================================================
+H6: DOMAIN VS CODE SMELLS
+======================================================================
+
+H6.0: Kruskal-Wallis Test (7 domains with n>=5)
+  H-statistic = 5.3143, p = 5.04e-01
+  Decision: FAIL TO REJECT H6.0
+
+  Domain Medians (sorted by smell density):
+    Computer Vision                     median=42.325 (n=37)
+    Domain-Specific Applications        median=41.881 (n=33)
+    MLOps / Deployment                  median=41.794 (n=26)
+    Data Science / Traditional ML       median=40.901 (n=27)
+    Reinforcement Learning              median=38.748 (n=22)
+    Natural Language Processing         median=37.647 (n=39)
+    ML Frameworks / Libraries           median=35.380 (n=95)
+
+======================================================================
+

@@ -1,0 +1,115 @@
+
+H0.0: ML-SPECIFIC VS GENERAL PYTHON CODE SMELLS (COMBINED)
+======================================================================
+
+ML Smells Configuration:
+  ✓ Including 12 types:
+    - Chain_Indexing
+    - columns_and_datatype_not_explicitly_set
+    - dataframe_conversion_api_misused
+    - in_place_apis_misused
+    - matrix_multiplication_api_misused
+    - merge_api_parameter_not_explicitly_set
+    - nan_equivalence_comparison_misused
+    - unnecessary_iteration
+    - gradients_not_cleared_before_backward_propagation
+    - memory_not_freed
+    - pytorch_call_method_misused
+    - tensor_array_not_used
+
+  ✗ Excluding 4 types:
+    - hyperparameters_not_explicitly_set
+    - empty_column_misinitialization
+    - Broadcasting_Feature_Not_Used
+    - deterministic_algorithm_option_not_used
+
+Python Smells: Top 20 functional (excluding imports/style/docstrings)
+======================================================================
+STEP 1: Scanning Pylint Results & Generating Statistics...
+
+[+] Scanned 279 Pylint files.
+[+] Ignored 4209804 messages (Noise). Breakdown:
+    Style/Naming              : 3223295
+    Docstrings                : 511591
+    Imports/Environment       : 474918
+
+================================================================================
+TOP 20 VALID PYTHON SMELLS (Functional Logic Only)
+================================================================================
+Rank  Smell Symbol                   Total      Median   Max
+--------------------------------------------------------------------------------
+1     unused-argument                65219      42.0     15124
+2     no-member                      64723      35.0     4769
+3     protected-access               62829      28.0     6420
+4     no-self-use                    61138      36.0     10156
+5     too-many-arguments             59211      68.0     6595
+6     redefined-outer-name           47817      29.0     3772
+7     too-many-locals                43671      50.0     5174
+8     unsubscriptable-object         42451      1.0      11167
+9     syntax-error                   32079      0.0      30619
+10    too-few-public-methods         31301      22.0     2788
+11    attribute-defined-outside-init 29032      27.0     4520
+12    abstract-method                25227      3.0      5633
+13    no-else-return                 24949      28.0     2283
+14    unused-variable                23810      28.0     1721
+15    fixme                          23102      18.0     2703
+16    too-many-instance-attributes   16349      17.0     2523
+17    redefined-builtin              14494      8.0      987
+18    arguments-differ               14475      13.0     1611
+19    logging-fstring-interpolation  14338      1.0      1314
+20    no-value-for-parameter         14314      3.0      2610
+
+================================================================================
+MOST FREQUENT SMELLS BY PROJECT SIZE (Top 5)
+================================================================================
+[SMALL] (n=82)
+  1. no-member                      : 2642
+  2. redefined-outer-name           : 1753
+  3. too-many-arguments             : 1568
+  4. attribute-defined-outside-init : 1375
+  5. unused-variable                : 1283
+
+[MEDIUM] (n=85)
+  1. redefined-outer-name           : 6621
+  2. too-many-arguments             : 5857
+  3. no-self-use                    : 5640
+  4. no-member                      : 4777
+  5. unused-argument                : 4551
+
+[LARGE] (n=112)
+  1. unused-argument                : 59473
+  2. protected-access               : 58152
+  3. no-member                      : 57304
+  4. no-self-use                    : 54724
+  5. too-many-arguments             : 51786
+
+STEP 2: Matching ML & Python Data...
+[+] Loading ML data from combined_analysis_data.csv...
+[+] Loaded 279 repositories from combined_analysis_data.csv
+[+] Using 12 ML smell types: Chain_Indexing, columns_and_datatype_not_explicitly_set, dataframe_conversion_api_misused, in_place_apis_misused, matrix_multiplication_api_misused, merge_api_parameter_not_explicitly_set, nan_equivalence_comparison_misused, unnecessary_iteration, gradients_not_cleared_before_backward_propagation, memory_not_freed, pytorch_call_method_misused, tensor_array_not_used
+[+] Paired 279 repositories.
+
+======================================================================
+H0.0: STATISTICAL TEST (ML-Specific vs General Python)
+======================================================================
+
+Group      ML-Specific     General Python
+---------------------------------------------
+small      0.919           37.379
+medium     0.642           42.821
+large      0.389           36.481
+
+Metric               | Median     | Mean       | Std Dev   
+----------------------------------------------------------
+ML-Specific          | 0.558      | 1.615      | 2.662     
+General Python       | 38.417     | 41.523     | 18.781    
+----------------------------------------------------------
+
+Sample Size (N): 279
+Wilcoxon W:      0.0
+p-value:         5.1373e-47
+Cliff's Delta:   -0.9788 (Large)
+----------------------------------------------------------------------
+Result: REJECT H0.0 (Significant difference exists)
+
+

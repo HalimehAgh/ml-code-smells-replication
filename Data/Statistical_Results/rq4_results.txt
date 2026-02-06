@@ -1,0 +1,247 @@
+
+Relationship                   | Spearman rho    | p-value
+-----------------------------------------------------------------
+LOC vs ML-Specific             | -0.0707         | 2.3949e-01
+LOC vs General Python          | 0.0083          | 8.9039e-01
+
+Fisher's z-transformation Results:
+  Difference (Δρ): 0.0789
+  z-statistic:     -0.9287
+  p-value:         3.5304e-01
+  Effect Size:     Negligible
+  Decision:        FAIL TO REJECT H7.0
+
+STEP 1: Loading Data...
+STEP 2: Merging Datasets...
+  [+] Successfully paired 279 repositories.
+
+============================================================
+H8.0: COMPARISON OF AGE CORRELATIONS (Maturity vs Quality)
+============================================================
+Relationship                   | Spearman rho    | p-value
+------------------------------------------------------------
+Age vs ML-Specific             | -0.0348         | 5.6234e-01
+Age vs General Python          | 0.0560          | 3.5157e-01
+
+Fisher's z-transformation Results:
+  Difference (Δρ): 0.0908
+  z-statistic:     -1.0676
+  p-value:         2.8569e-01
+  Effect Size:     Negligible
+  Decision: FAIL TO REJECT H8.0
+  Conclusion: No significant difference in age correlations.
+
+[+] Saved plot: H8_0_Age_Correlation.png
+
+STEP 1: Loading Data...
+STEP 2: Merging Datasets...
+  [+] Successfully paired 279 repositories.
+
+============================================================
+H9.0: COMPARISON OF CONTRIBUTORS CORRELATIONS
+============================================================
+Relationship                        | Spearman rho    | p-value
+-----------------------------------------------------------------
+Contributors vs ML-Specific         | -0.1073         | 7.3633e-02
+Contributors vs General Python      | -0.0255         | 6.7203e-01
+
+Fisher's z-transformation Results:
+  Difference (Δρ): 0.0818
+  z-statistic:     -0.9659
+  p-value:         3.3410e-01
+  Effect Size:     Negligible
+  Decision: FAIL TO REJECT H9.0
+
+[+] Saved plot: H9_0_Contributor_Correlation.png
+
+STEP 1: Loading Data...
+STEP 2: Merging Datasets...
+  [+] Successfully paired 279 repositories.
+
+============================================================
+H10.0: COMPARISON OF COMMIT FREQUENCY CORRELATIONS
+============================================================
+Relationship                        | Spearman rho | p-value
+-----------------------------------------------------------------
+Commit Freq vs ML-Specific          | -0.1549      | 9.5451e-03
+Commit Freq vs General Python       | -0.0244      | 6.8445e-01
+
+Fisher's z-transformation Results:
+  Difference (Δρ): 0.1305
+  z-statistic:     -1.5477
+  p-value:         1.2170e-01
+  Effect Size:     Small
+  Decision:        FAIL TO REJECT H10.0
+  Conclusion:      Development pace has a similar (or null) impact on both.
+
+[+] Saved plot: H10_0_Frequency_Correlation.png
+
+======================================================================
+H11.0: CI/CD EFFECT SIZE COMPARISON (UPDATED)
+======================================================================
+Using corrected smell filtering:
+  - ML: 12 types (excluding 4 unwanted)
+  - Python: Top 20 valid functional (dynamically extracted)
+======================================================================
+STEP 1: Locating result directories...
+  [+] Found small results at: /Volumes/SSD/Pylint Analysis/small_pylint_results
+  [+] Found medium results at: /Volumes/SSD/Pylint Analysis/medium_pylint_results
+  [+] Found large results at: /Volumes/SSD/Pylint Analysis/large_pylint_results
+
+STEP 0: Extracting Top 20 Valid Python Smells...
+  [+] Extracted Top 20 Python Smells: unused-argument, no-member, protected-access, no-self-use, too-many-arguments... (+15 more)
+
+STEP 2: Loading ML Density & CI Status...
+  [+] Recalculated ML densities for 279 repos using 12 types.
+  [+] Using CI column: 'CI_Exists_Checked' in small
+  [+] Using CI column: 'CI_Exists_Checked' in medium
+  [+] Using CI column: 'CI_Exists_Checked' in large
+
+Overall CI Status: 244 with CI, 35 without CI
+
+STEP 3: Scanning Pylint Results...
+[+] Final Paired Dataset: 279 repositories.
+[+] Final CI Distribution: 244 with CI, 35 without CI
+
+============================================================
+H11.0: COMPARISON OF CI/CD EFFECT SIZES
+============================================================
+Sample Sizes: CI=244, No-CI=35
+
+Observed Effect Sizes (Cliff's Delta: CI vs No-CI):
+  δ_ML (ML-Specific):     -0.1230
+  δ_Python (General Py):  -0.1304
+  Difference |Δδ|:        0.0075
+
+Running Bootstrap Test (1000 iterations)...
+
+Bootstrap Results:
+  Mean Difference: 0.0116
+  95% CI:          [-0.2566, 0.2840]
+  Valid Iterations: 1000/1000
+
+  Decision: FAIL TO REJECT H11.0
+  Conclusion: CI/CD has similar effects on both quality types.
+
+[+] Saved plot: H11_0_CI_Effect_Comparison.png
+
+======================================================================
+H12.0: DOMAIN-SPECIFIC PATTERN ANALYSIS
+======================================================================
+
+STEP 1: Loading Data...
+  [+] Loaded domain data: 279 repositories
+
+  Domain Distribution:
+    ML Frameworks / Libraries               :  95 repos
+    Natural Language Processing             :  39 repos
+    Computer Vision                         :  37 repos
+    Domain-Specific Applications            :  33 repos
+    Data Science / Traditional ML           :  27 repos
+    MLOps / Deployment                      :  26 repos
+    Reinforcement Learning                  :  22 repos
+  [+] Loaded paired data: 279 repositories
+  [+] Successfully merged: 279 repositories with domain info
+  [+] Filtered to 7 domains with ≥5 repositories each
+  [+] Final dataset: 279 repositories
+
+======================================================================
+STEP 2: Calculating Domain Statistics
+======================================================================
+
+Domain Rankings (n=7 domains):
+================================================================================
+Domain                              n    ML Med   Py Med   R_ML  R_Py  Diff
+--------------------------------------------------------------------------------
+Data Science / Traditional ML       27   1.955    40.901   1     4       -3
+Domain-Specific Applications        33   0.831    41.881   2     2       +0
+Computer Vision                     37   0.661    42.325   3     1       +2
+MLOps / Deployment                  26   0.492    41.794   4     3       +1
+Natural Language Processing         39   0.487    37.647   5     6       -1
+ML Frameworks / Libraries           95   0.379    35.380   6     7       -1
+Reinforcement Learning              22   0.370    38.748   7     5       +2
+
+======================================================================
+STEP 3: Ranking Correlation Analysis
+======================================================================
+
+Spearman's Rank Correlation:
+  ρ (rho):     0.6429
+  p-value:     1.1939e-01
+  Strength:    Strong
+  Direction:   Positive (Concordant)
+
+----------------------------------------------------------------------
+
+Decision (α=0.05):  FAIL TO REJECT H12.0
+
+Conclusion: There is NO statistically significant association between domain rankings
+            for ML-specific vs. general Python smell densities.
+
+======================================================================
+INTERPRETATION
+======================================================================
+
+No significant correlation (ρ=0.643, p=1.1939e-01):
+Domain rankings for ML-specific and general Python smells are
+statistically independent. Different domains face different quality
+challenges for each smell type.
+
+======================================================================
+STEP 4: Discordant Domain Analysis
+======================================================================
+
+Top 3 Most Discordant Domains (Largest Rank Difference):
+----------------------------------------------------------------------
+
+1. Data Science / Traditional ML
+   Pattern:            Better ML quality / Worse Python quality
+   ML Median:          1.955 smells/1k LOC (Rank 1)
+   Python Median:      40.901 smells/1k LOC (Rank 4)
+   Rank Difference:    -3
+   Recommendation:     Focus on Python code quality
+
+2. Computer Vision
+   Pattern:            Worse ML quality / Better Python quality
+   ML Median:          0.661 smells/1k LOC (Rank 3)
+   Python Median:      42.325 smells/1k LOC (Rank 1)
+   Rank Difference:    +2
+   Recommendation:     Focus on ML-specific code quality
+
+3. Reinforcement Learning
+   Pattern:            Worse ML quality / Better Python quality
+   ML Median:          0.370 smells/1k LOC (Rank 7)
+   Python Median:      38.748 smells/1k LOC (Rank 5)
+   Rank Difference:    +2
+   Recommendation:     Focus on ML-specific code quality
+
+======================================================================
+STEP 5: Domain-Specific Effect Sizes
+======================================================================
+
+Data Science / Traditional ML:
+  ML Effect:     δ=  0.486, U=  5056.5, p=3.1763e-05
+  Python Effect: δ=  0.069, U=  3636.0, p=5.5786e-01
+  Bonferroni (α=0.0083): ML ✓ Significant, Py   Not significant
+
+Computer Vision:
+  ML Effect:     δ=  0.075, U=  4813.5, p=4.6128e-01
+  Python Effect: δ=  0.105, U=  4947.0, p=3.0434e-01
+  Bonferroni (α=0.0083): ML   Not significant, Py   Not significant
+
+Reinforcement Learning:
+  ML Effect:     δ= -0.051, U=  2683.0, p=6.9213e-01
+  Python Effect: δ= -0.046, U=  2696.0, p=7.1938e-01
+  Bonferroni (α=0.0083): ML   Not significant, Py   Not significant
+
+[+] Saved statistical results: h12_results.csv
+[+] Saved domain statistics: h12_domain_statistics.csv
+[+] Saved analysis data: h12_data_with_domains.csv
+
+[+] Generating visualizations...
+[+] Saved plot: H12_0_Domain_Comparison.png
+[+] Saved plot: H12_0_Ranking_Scatter.png
+
+======================================================================
+ANALYSIS COMPLETE
+

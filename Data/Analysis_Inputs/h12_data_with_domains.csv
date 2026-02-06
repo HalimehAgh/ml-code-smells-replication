@@ -1,0 +1,280 @@
+Repo,Domain,ML_Density,Python_Density
+aiqm/torchani,ML Frameworks / Libraries,0.636883019574787,9.684368268240142
+alfredfrancis/ai-chatbot-framework,Natural Language Processing,0.0,40.82509669101848
+allegroai/trains,MLOps / Deployment,0.2601506335619697,20.437687578124503
+amaiya/ktrain,Natural Language Processing,1.0921238596942051,40.28009764872157
+analyticalmindsltd/smote_variants,Data Science / Traditional ML,2.715228687795515,6.0858574036796025
+apache/beam,MLOps / Deployment,1.884250869962636,55.32481277762633
+apache/submarine,MLOps / Deployment,0.2283278788340056,36.5324606134409
+ARM-software/CMSIS_5,Domain-Specific Applications,0.0,18.75
+arogozhnikov/einops,ML Frameworks / Libraries,1.731815932706581,41.06877783275606
+arogozhnikov/hep_ml,Data Science / Traditional ML,6.692497358224727,58.47129270870025
+arviz-devs/arviz,Data Science / Traditional ML,0.536097212294496,17.75077436263998
+autorope/donkeycar,ML Frameworks / Libraries,0.9420419881571864,53.02350619056163
+avrae/avrae,Domain-Specific Applications,0.0,27.96969021618008
+awslabs/amazon-sagemaker-examples,Reinforcement Learning,2.9971313171678537,41.360412176916384
+bayesiains/nflows,ML Frameworks / Libraries,1.560549313358302,25.124843945068665
+Belval/TextRecognitionDataGenerator,Computer Vision,0.0,16.57125640253088
+beringresearch/ivis,Data Science / Traditional ML,0.9945300845350572,42.76479363500746
+bethgelab/foolbox,ML Frameworks / Libraries,0.0,40.91839054330529
+BindsNET/bindsnet,Reinforcement Learning,0.570287995437696,43.62703165098375
+bitextor/bitextor,Natural Language Processing,0.0,28.338342636324604
+BloodAxe/pytorch-toolbelt,Computer Vision,0.4120992334954257,29.753564658369736
+brainiak/brainiak,Domain-Specific Applications,5.261684858662189,53.45647914917436
+bulletphysics/bullet3,Reinforcement Learning,0.9623875147582622,28.06798226032086
+Calamari-OCR/calamari,Computer Vision,0.1803751803751803,37.42784992784993
+calico/basenji,Domain-Specific Applications,6.94775389400286,35.3407409265344
+cgre-aachen/gempy,Reinforcement Learning,3.150086373336044,26.521694949700237
+CLUEbenchmark/CLUE,Natural Language Processing,0.1633886812491064,92.39629924636972
+commaai/openpilot,Domain-Specific Applications,0.0654364611961785,51.84748942110544
+cornellius-gp/gpytorch,ML Frameworks / Libraries,1.3243388652071348,41.79944543310019
+CornellNLP/Cornell-Conversational-Analysis-Toolkit,Natural Language Processing,2.914005828011656,39.80407960815921
+cornell-zhang/heterocl,ML Frameworks / Libraries,0.1480092752479155,52.04992846218363
+cpnota/autonomous-learning-library,Reinforcement Learning,0.1883593897155773,24.1100018835939
+creme-ml/creme,Data Science / Traditional ML,3.482298316889147,36.43515831559941
+danielegrattarola/spektral,ML Frameworks / Libraries,0.1914791766395404,48.2527525131642
+datamllab/rlcard,Reinforcement Learning,0.1556662515566625,28.17559153175592
+data-science-on-aws/workshop,MLOps / Deployment,3.0660451146638303,95.6105496980884
+deepchem/deepchem,Data Science / Traditional ML,0.6703425355942445,47.52822991804827
+deepfakes/faceswap,Computer Vision,0.02172213050656,13.619775827613172
+deepmedic/deepmedic,Computer Vision,2.635046113306983,42.32542819499341
+deepmind/dm-haiku,ML Frameworks / Libraries,0.0480954213158907,49.00923432089265
+deepmind/open_spiel,Reinforcement Learning,0.8323442822571945,29.517394454120875
+deepmind/sonnet,ML Frameworks / Libraries,0.3789026977872082,51.60654743861776
+deepmipt/DeepPavlov,Natural Language Processing,0.1774412965044064,53.70556574200035
+deezer/spleeter,ML Frameworks / Libraries,2.182453077258839,34.919249236141425
+determined-ai/determined,MLOps / Deployment,0.0957548675390999,32.0353229066922
+DigitalSlideArchive/HistomicsTK,Computer Vision,5.306447333510215,44.04351286813478
+DLR-RM/stable-baselines3,Reinforcement Learning,1.1695101816180518,36.80517336268574
+dmlc/dgl,Domain-Specific Applications,0.9530037359774118,61.85399779998073
+DSE-MSU/DeepRobust,ML Frameworks / Libraries,5.343197698314837,90.286340594602
+dwadden/dygiepp,Natural Language Processing,1.7541492376197545,37.64674133045473
+eleurent/rl-agents,Reinforcement Learning,2.560240963855422,48.493975903614455
+EpistasisLab/tpot,Data Science / Traditional ML,2.468845520808841,63.95485539619092
+ethen8181/machine-learning,Data Science / Traditional ML,8.273381294964029,58.63309352517985
+evilsocket/pwnagotchi,Reinforcement Learning,0.0,44.26623897353649
+explosion/prodigy-recipes,Natural Language Processing,0.2602811035918792,43.46694429984383
+explosion/spacy-transformers,Natural Language Processing,0.0,50.74214704867104
+facebookresearch/CrypTen,MLOps / Deployment,4.3282070172207385,62.8510912607054
+facebookresearch/habitat-api,Computer Vision,0.2164636031912919,35.43818417960294
+facebookresearch/mmf,ML Frameworks / Libraries,0.2080011093392498,40.39843768055652
+facebookresearch/nevergrad,Data Science / Traditional ML,1.3173212425709209,22.241284235034616
+facebookresearch/ReAgent,Reinforcement Learning,0.3213561228383779,40.06909156641025
+fastai/fastai,ML Frameworks / Libraries,0.0667868830561677,95.17130835503906
+f-dangel/backpack,ML Frameworks / Libraries,0.0606060606060606,41.75757575757576
+feast-dev/feast,MLOps / Deployment,3.764534442454234,40.17527348533147
+FederatedAI/FATE,MLOps / Deployment,2.605813262823092,54.08978559521756
+fepegar/torchio,Computer Vision,0.6416654783972623,30.30086981320405
+flairNLP/flair,Natural Language Processing,0.5576000892160142,32.03412512546002
+flatironinstitute/CaImAn,Computer Vision,1.722480371735299,58.76462105431822
+freewym/espresso,ML Frameworks / Libraries,0.3965303593556382,33.27314568950257
+FunctionLab/selene,Data Science / Traditional ML,2.0465994962216625,34.94962216624685
+galaxyproject/galaxy,Domain-Specific Applications,0.0,49.959592970315065
+geomstats/geomstats,ML Frameworks / Libraries,0.2279158990332567,43.96877552183245
+geoopt/geoopt,ML Frameworks / Libraries,0.475963826749167,65.80199904807235
+geyang/ml_logger,Computer Vision,2.9069767441860463,79.60644007155635
+gjy3035/C-3-Framework,Computer Vision,4.415524052986289,18.12688821752266
+google/automl,Computer Vision,0.0,26.720973950407306
+google/clusterfuzz,MLOps / Deployment,0.0,28.39392458363096
+google/fhir,Domain-Specific Applications,0.0,0.0
+google/flax,ML Frameworks / Libraries,0.1236418713197224,54.943356567701656
+google/ml-metadata,MLOps / Deployment,0.0,35.64520585797182
+google/qkeras,ML Frameworks / Libraries,0.0,27.35393426507672
+google/tf-quant-finance,ML Frameworks / Libraries,0.09867966606801,18.413625688290672
+GoogleCloudPlatform/healthcare,Domain-Specific Applications,0.0,47.76579352850539
+GoogleCloudPlatform/ml-on-gcp,Data Science / Traditional ML,1.6115169746454665,68.65062311989686
+GoogleCloudPlatform/professional-services,MLOps / Deployment,1.3112684093585711,37.21331180262983
+GoogleCloudPlatform/python-docs-samples,MLOps / Deployment,0.1373676029353288,47.54365036330116
+GoogleCloudPlatform/training-data-analyst,MLOps / Deployment,0.5734263147185586,101.3022326631028
+google-research/google-research,ML Frameworks / Libraries,1.4388302103858912,27.340833710697986
+google-research/meta-dataset,ML Frameworks / Libraries,0.0658848333113717,72.60508630913164
+google-research/tensor2robot,ML Frameworks / Libraries,0.0,34.74329596829132
+google-research/text-to-text-transfer-transformer,ML Frameworks / Libraries,1.1693171188026192,18.475210477081383
+GRAAL-Research/poutyne,ML Frameworks / Libraries,0.3107037439801149,13.826316607115116
+graphbrain/graphbrain,Natural Language Processing,0.0,35.6581532416503
+greentfrapp/lucent,ML Frameworks / Libraries,0.0,37.33200597312096
+guildai/guildai,MLOps / Deployment,0.3475574435219154,26.64607067001352
+guillaume-be/rust-bert,Natural Language Processing,0.0,28.409090909090907
+hastagAB/Awesome-Python-Scripts,Domain-Specific Applications,0.5284713964856652,41.88135817148897
+heartexlabs/label-studio,Computer Vision,0.1719000687600275,50.786920314768125
+henrysky/astroNN,ML Frameworks / Libraries,0.0990491283676703,70.2258320126783
+home-assistant/core,Domain-Specific Applications,0.0,34.710715591163094
+huggingface/transformers,Natural Language Processing,0.2093245491179549,50.22070088330915
+huseinzol05/Malaya,Natural Language Processing,0.0745926000825491,12.307779013620609
+IBM/adversarial-robustness-toolbox,Data Science / Traditional ML,1.79829348149618,28.33862486357774
+IBM/AIF360,Computer Vision,17.058185760751716,47.70509577159378
+IBM/AIX360,Domain-Specific Applications,15.001167406023814,50.37356992762083
+IBM/lale,Data Science / Traditional ML,2.681760322305572,20.06994821854493
+idealo/image-super-resolution,Computer Vision,0.0,51.64992826398852
+interpretml/DiCE,Domain-Specific Applications,10.678056593699946,93.69994660971705
+interpretml/interpret-community,Reinforcement Learning,5.905324316601581,73.05457662634537
+interpretml/interpret-text,Natural Language Processing,3.060778312199388,40.66462614779186
+jaakkopasanen/AutoEq,Domain-Specific Applications,2.016942315449778,26.01855586930214
+jantic/DeOldify,Computer Vision,0.3880180040353873,72.09374514977495
+jeongyoonlee/Kaggler,Data Science / Traditional ML,9.00562851782364,40.90056285178236
+jessevig/bertviz,Natural Language Processing,0.0,35.49795745879701
+joeynmt/joeynmt,ML Frameworks / Libraries,1.0240655401945724,9.523809523809526
+jrzaurin/pytorch-widedeep,Natural Language Processing,3.669382424280117,31.09646122271285
+junyanz/pytorch-CycleGAN-and-pix2pix,Computer Vision,1.9636720667648504,67.74668630338734
+kakao/buffalo,Domain-Specific Applications,0.0,64.31349087645827
+kaushaltrivedi/fast-bert,Natural Language Processing,3.943908851884312,30.455740578439965
+keras-team/autokeras,ML Frameworks / Libraries,0.0,21.343121261555197
+keras-team/keras-tuner,ML Frameworks / Libraries,0.1827652380517225,57.388284748240885
+kermitt2/delft,Natural Language Processing,0.5285877896220597,63.518632719584176
+kermitt2/grobid,Reinforcement Learning,0.0,54.60750853242321
+KevinMusgrave/pytorch-metric-learning,Computer Vision,4.945725480120752,29.867043483846103
+kipoi/kipoi,Domain-Specific Applications,7.462686567164179,49.88754855857698
+koaning/scikit-lego,Data Science / Traditional ML,10.055018023145513,61.84784670840448
+kornia/kornia,Computer Vision,0.1653732119021463,57.86881179347248
+kubeflow/examples,MLOps / Deployment,3.261460409494473,31.07447001268346
+kubeflow/katib,MLOps / Deployment,0.1893341748185547,61.28116124960555
+kubeflow/kfserving,MLOps / Deployment,0.3221390029797857,31.79511959410486
+kubeflow/pipelines,MLOps / Deployment,0.1086917140683308,44.49114162530344
+kubeflow-kale/kale,MLOps / Deployment,0.7680491551459294,37.48079877112135
+l3p-cv/lost,Computer Vision,1.979675333245348,51.86749373102811
+lab-ml/labml,ML Frameworks / Libraries,1.0353227771010962,28.014616321559075
+learnables/cherry,Reinforcement Learning,0.3577817531305903,26.475849731663683
+limbo018/DREAMPlace,ML Frameworks / Libraries,10.7662192393736,62.22035794183446
+lsds/KungFu,ML Frameworks / Libraries,0.1321702352630187,71.23975680676712
+magenta/ddsp,Domain-Specific Applications,0.0,34.81076705120421
+magenta/magenta,Domain-Specific Applications,0.0223763705526963,23.517565450883865
+MAIF/melusine,Natural Language Processing,6.567713122290818,17.07605411795613
+MarkUsProject/Markus,Domain-Specific Applications,0.0,28.1524926686217
+masa-su/pixyz,ML Frameworks / Libraries,2.4634875945803274,80.59123702269929
+MIC-DKFZ/nnUNet,Computer Vision,0.3567097096382963,32.81729328672327
+michaelhush/M-LOOP,Data Science / Traditional ML,0.0,32.34208812676362
+microsoft/ai-edu,Domain-Specific Applications,5.251076942426815,118.13350941735057
+microsoft/botbuilder-python,ML Frameworks / Libraries,0.0,23.710729104919974
+microsoft/DeepSpeed,ML Frameworks / Libraries,0.8191451857074719,63.26081997469981
+microsoft/hummingbird,ML Frameworks / Libraries,3.0771289049434745,58.2647668740384
+microsoft/MMdnn,ML Frameworks / Libraries,0.0718236012353659,51.21022768081591
+microsoft/Windows-Machine-Learning,ML Frameworks / Libraries,7.117437722419928,35.587188612099645
+mindsdb/mindsdb,Natural Language Processing,8.849029737809287,39.39942895056621
+MIPT-Oulu/solt,Computer Vision,0.8389261744966443,52.2231543624161
+MITK/MITK,Domain-Specific Applications,0.0,0.0
+mittagessen/kraken,Computer Vision,0.0,66.12279948475741
+mlflow/mlflow,MLOps / Deployment,2.695560748392491,48.79152146309048
+mljar/mljar-supervised,Data Science / Traditional ML,15.061332229180683,40.681124165415866
+mlmed/torchxrayvision,Computer Vision,4.165278240586472,32.15594801732756
+mlperf/inference,ML Frameworks / Libraries,1.2864329326830766,34.6952881993779
+mlperf/training,ML Frameworks / Libraries,0.1783848525776611,43.93364083484111
+mozilla/bugbug,Natural Language Processing,5.37843671490747,34.32291850960688
+mozilla/DeepSpeech,ML Frameworks / Libraries,2.375028274146121,19.791902284551007
+mpariente/asteroid,ML Frameworks / Libraries,3.260926734339662,29.611318571503705
+namisan/mt-dnn,Natural Language Processing,0.0768521364893944,40.50107592991085
+nanoporetech/medaka,Domain-Specific Applications,0.286697247706422,34.475344036697244
+NLeSC/mcfly,Domain-Specific Applications,0.0,69.75414522584333
+norse/norse,ML Frameworks / Libraries,0.7806955287437899,27.182398864442867
+nussl/nussl,Domain-Specific Applications,0.830724007923829,35.01821202632756
+nutonomy/nuscenes-devkit,Domain-Specific Applications,1.559533496067263,24.27447789530784
+NVIDIA/DeepLearningExamples,Natural Language Processing,1.0335073977371627,50.30529264577894
+NVIDIA/Megatron-LM,Natural Language Processing,0.3764782306999542,36.82842927376611
+NVIDIA/NeMo,Natural Language Processing,0.9957497333235572,39.22922821117463
+NVIDIA/TRTorch,ML Frameworks / Libraries,0.0979485226097839,55.37356478206454
+NVIDIAGameWorks/kaolin,ML Frameworks / Libraries,0.0,65.11397889977393
+onnx/onnxmltools,ML Frameworks / Libraries,0.8726695755652518,21.697738992463307
+onnx/tensorflow-onnx,ML Frameworks / Libraries,0.1302464914851356,25.70740125687864
+opencv/cvat,Computer Vision,0.0105337448516322,32.844216447389215
+opencv/open_model_zoo,ML Frameworks / Libraries,0.3163210768005759,34.7625955780495
+opencv/openvino_training_extensions,Computer Vision,0.9054254792388768,67.02978000990309
+OpenMined/PySyft,ML Frameworks / Libraries,0.633440254454298,50.54044583411952
+open-mmlab/mmcv,Computer Vision,0.6999963158088641,42.03662085989021
+open-mmlab/mmdetection,Computer Vision,0.6610487816932733,24.329066376711317
+OpenNMT/OpenNMT-py,Natural Language Processing,0.3355579583162447,30.610342641959654
+openvinotoolkit/model_server,MLOps / Deployment,0.0,36.90341976700488
+openvinotoolkit/openvino,Natural Language Processing,0.0619071530276037,48.2600650712964
+PacktPublishing/Deep-Reinforcement-Learning-Hands-On,Reinforcement Learning,0.2725785934944575,50.24532073414501
+PaddlePaddle/models,Natural Language Processing,1.4941771039332017,44.759393539881344
+PaddlePaddle/PARL,Reinforcement Learning,1.4594639039631638,47.11396151948693
+pgmpy/pgmpy,Data Science / Traditional ML,5.8491062039957935,20.96477392218717
+philipperemy/keract,ML Frameworks / Libraries,0.9259259259259258,28.703703703703702
+philipperemy/keras-tcn,ML Frameworks / Libraries,0.7656967840735068,33.6906584992343
+Project-MONAI/MONAI,Computer Vision,1.09312062751749,28.44763620945516
+pyannote/pyannote-audio,Reinforcement Learning,0.0,46.43058956488981
+pymc-devs/pymc3,Data Science / Traditional ML,0.5371290452531221,73.48596750369276
+pyro-ppl/pyro,ML Frameworks / Libraries,0.3810334973271621,39.11196781387635
+pytorch/audio,ML Frameworks / Libraries,0.12363690314285,33.258326945426674
+pytorch/botorch,ML Frameworks / Libraries,0.4799214268175629,26.786312194468625
+pytorch/builder,ML Frameworks / Libraries,0.0,30.656934306569344
+pytorch/captum,ML Frameworks / Libraries,0.0947014536673137,21.94706188739997
+pytorch/examples,Reinforcement Learning,2.2886375875067317,37.42595584275713
+pytorch/fairseq,ML Frameworks / Libraries,0.4115706220889953,33.81052660461096
+pytorch/ignite,ML Frameworks / Libraries,0.1454575679494638,56.87390906824038
+pytorch/serve,MLOps / Deployment,0.4097198146805761,43.65091871789216
+pytorch/text,Natural Language Processing,0.2096875655273642,29.635842594534143
+pytorch/tutorials,ML Frameworks / Libraries,1.3169751161017538,79.29576488528453
+pytorch/vision,Computer Vision,0.1178411501296252,58.64561238117684
+PyTorchLightning/pytorch-lightning,ML Frameworks / Libraries,0.3453913283750489,58.474751893895785
+QData/TextAttack,Natural Language Processing,0.3129890453834116,23.23943661971831
+quantumblacklabs/kedro,MLOps / Deployment,1.328682943032719,83.45789735924265
+quantumlib/Cirq,ML Frameworks / Libraries,0.6673399122418486,36.662355532720326
+ray-project/ray,Natural Language Processing,1.1205290654881757,54.581064942035376
+ria-com/nomeroff-net,Computer Vision,1.212460361872785,43.74183920910278
+robertness/causalML,ML Frameworks / Libraries,8.15450643776824,28.755364806866957
+ROCmSoftwarePlatform/tensorflow-upstream,ML Frameworks / Libraries,0.0290613193839,35.84053261472616
+RussTedrake/underactuated,Domain-Specific Applications,0.8396305625524769,15.95298068849706
+rusty1s/pytorch_geometric,ML Frameworks / Libraries,1.370183201553949,35.32654689653505
+rusty1s/pytorch_scatter,ML Frameworks / Libraries,0.0,26.89655172413793
+rwightman/pytorch-image-models,Computer Vision,0.1789356905128297,33.71148409261711
+rwth-i6/returnn,ML Frameworks / Libraries,0.0687332462712213,27.101519004742592
+scikit-learn-contrib/imbalanced-learn,Data Science / Traditional ML,0.9346376721291046,50.28350676054583
+SeldonIO/alibi,Domain-Specific Applications,3.26970236091744,83.81016492763379
+SeldonIO/alibi-detect,Domain-Specific Applications,1.1236890294656234,72.54036956883635
+SeldonIO/seldon-core,MLOps / Deployment,0.9121313469139556,89.69291577987231
+sigopt/sigopt-examples,Data Science / Traditional ML,0.1902949571836346,27.02188392007612
+sisl/NeuralVerification.jl,Domain-Specific Applications,0.0,0.0
+skorch-dev/skorch,ML Frameworks / Libraries,1.4572302909603148,80.48768640404138
+slundberg/shap,Data Science / Traditional ML,9.454545454545457,38.41711229946524
+snap-stanford/ogb,Domain-Specific Applications,6.706096027569506,47.92064453034043
+snipsco/tract,ML Frameworks / Libraries,4.076086956521739,11.54891304347826
+snorkel-team/snorkel,Computer Vision,7.205554827721735,42.70928861522337
+SPFlow/SPFlow,ML Frameworks / Libraries,0.1211754013935171,43.44138139957589
+spmallick/learnopencv,Computer Vision,0.0,39.96336691366248
+sql-machine-learning/elasticdl,ML Frameworks / Libraries,0.1822323462414578,40.182232346241456
+stanfordnlp/stanza,Natural Language Processing,0.3305528009488809,49.19403449415699
+stephenhky/PyShortTextCategorization,Natural Language Processing,1.1583011583011584,60.23166023166023
+streamlit/streamlit,Data Science / Traditional ML,0.2021142912379061,31.758306457990987
+tensorflow/addons,ML Frameworks / Libraries,0.4943153732081068,30.8240943436198
+tensorflow/data-validation,ML Frameworks / Libraries,1.5626664772525485,13.957452853642078
+tensorflow/examples,ML Frameworks / Libraries,0.5358212248242822,29.15497840955653
+tensorflow/fairness-indicators,ML Frameworks / Libraries,3.289473684210526,29.605263157894736
+tensorflow/federated,ML Frameworks / Libraries,0.0,22.433318893495887
+tensorflow/graphics,ML Frameworks / Libraries,0.089790787465206,23.585046840860795
+tensorflow/io,ML Frameworks / Libraries,0.1525436656242849,18.228968042102053
+tensorflow/model-analysis,ML Frameworks / Libraries,0.4812126558928499,17.664514576733367
+tensorflow/models,ML Frameworks / Libraries,0.2083992824733565,35.3803946396539
+tensorflow/privacy,ML Frameworks / Libraries,0.6973500697350069,25.86836687255097
+tensorflow/quantum,ML Frameworks / Libraries,0.0,23.513052272296317
+tensorflow/serving,ML Frameworks / Libraries,0.0,47.99301919720768
+tensorflow/text,ML Frameworks / Libraries,0.0,22.172828797571288
+tensorflow/tfjs,ML Frameworks / Libraries,0.0,11.594441246608008
+tf-encrypted/tf-encrypted,ML Frameworks / Libraries,0.0438327342859647,37.95914789164548
+TheAlgorithms/Python,Domain-Specific Applications,1.149475145311009,46.82484601370695
+thu-ml/tianshou,Reinforcement Learning,0.1408331690279694,32.61696194687773
+thunlp/OpenNRE,Natural Language Processing,2.868983104877272,35.065349059611094
+Tiiiger/QPyTorch,ML Frameworks / Libraries,2.326783867631851,42.39917269906929
+timesler/facenet-pytorch,ML Frameworks / Libraries,0.6816632583503749,27.266530334015
+tslearn-team/tslearn,Domain-Specific Applications,1.6748768472906403,50.73891625615764
+uber/causalml,Data Science / Traditional ML,13.280689160086144,57.60947595118449
+uber/ludwig,Natural Language Processing,3.22932393893642,33.478023821506454
+UKPLab/sentence-transformers,Natural Language Processing,0.4869048229204039,28.62487827379427
+ultralytics/yolov3,Computer Vision,3.604902667627974,45.15140591204037
+ultralytics/yolov5,Computer Vision,3.841452767592108,44.08940108259123
+Unity-Technologies/ml-agents,Reinforcement Learning,0.0,22.745182319650407
+vaexio/vaex,Data Science / Traditional ML,1.95501892458319,101.9737871062592
+vanvalenlab/deepcell-tf,ML Frameworks / Libraries,0.7784304012454887,36.23239685797184
+VertaAI/modeldb,MLOps / Deployment,0.0,43.411836180401686
+vespa-engine/sample-apps,MLOps / Deployment,2.337423825027131,21.53769095917856
+vwxyzjn/cleanrl,Reinforcement Learning,0.2374544878898211,42.82095931613107
+wandb/client,Reinforcement Learning,0.3816407794668064,36.52716086848567
+wandb/examples,Data Science / Traditional ML,0.5611672278338945,42.64870931537598
+wikipedia2vec/wikipedia2vec,Natural Language Processing,1.3389868332961392,33.02834188797144
+x4nth055/pythoncode-tutorials,Natural Language Processing,0.3814519012993205,21.981165812373344
+XanaduAI/pennylane,ML Frameworks / Libraries,0.0884821879647098,36.74008785424986
+XanaduAI/strawberryfields,ML Frameworks / Libraries,0.9765317372814616,51.85068514726729
+Xilinx/brevitas,ML Frameworks / Libraries,0.1886792452830188,54.734133790737566
+YosefLab/scVI,Domain-Specific Applications,3.1082549913235824,39.70176007322515
+yzhao062/pyod,Data Science / Traditional ML,1.5685328185328185,48.865830115830114
+zalandoresearch/pytorch-ts,ML Frameworks / Libraries,1.0068465565847764,33.93072895690697
+zeusees/HyperLPR,ML Frameworks / Libraries,0.7374631268436578,55.309734513274336
+zhanghang1989/PyTorch-Encoding,Computer Vision,0.5792903692976104,41.27443881245475
