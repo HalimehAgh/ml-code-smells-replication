@@ -65,14 +65,3 @@ python classify_domains.py
 ```bash 
 python classify_cicd.py
 ```
----
-
-## File Structure Overview
-
-* **NICHE.csv:** Original source dataset.
-* **niche_updated.csv:** Updated dataset.
-* **niche_filtered.csv:** Filtered dataset.
-* **repos_with_domains.csv:** Final dataset with domain annotations.
-* **repos_with_domains_checked.csv:** Final dataset including CI/CD classification.
-* **update_progress.json:** Temporary checkpoint file for long-running update processes.
-* **charts/:** Directory containing generated distribution visualizations.

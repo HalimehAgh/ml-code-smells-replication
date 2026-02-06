@@ -25,8 +25,8 @@ Data/
 |------|-------------|----------|
 | `niche_original_572.csv` | Original NICHE dataset (2020) | 572 |
 | `niche_updated_565.csv` | Updated metrics (2025): stars, commits, LOC | 565 |
-| `niche_297_enriched.csv` | Added: contributors, branches, age | 297 |
-| `niche_filtered_279.csv` | **Final dataset** after 5 filtering criteria | 279 |
+| `niche_279_enriched.csv` | Added: contributors, branches, age | 279 |
+| `niche_filtered_279.csv` | **Final dataset** | 279 |
 
 **Filtering Criteria:**
 1. Recent activity (2024+ commits)
@@ -161,7 +161,5 @@ Based on LOC percentiles:
 ## References
 
 - NICHE Dataset: Widyasari et al. (2023) - https://doi.org/10.1109/MSR59073.2023.00022
-- CodeSmile: https://github.com/AISE-TUDelft/CodeSmile
-- For methodology details, see: `Documentation/Supplementary.pdf`
-
-```
+- CodeSmile: https://github.com/giammariagiordano/smell_ai/tree/main
+- For methodology details, see: `Documentation/Supplementary_Material.pdf`
