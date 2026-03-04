@@ -199,21 +199,21 @@ Top 3 Most Discordant Domains (Largest Rank Difference):
    ML Median:          1.955 smells/1k LOC (Rank 1)
    Python Median:      40.901 smells/1k LOC (Rank 4)
    Rank Difference:    -3
-   Recommendation:     Focus on Python code quality
+   
 
 2. Computer Vision
    Pattern:            Worse ML quality / Better Python quality
    ML Median:          0.661 smells/1k LOC (Rank 3)
    Python Median:      42.325 smells/1k LOC (Rank 1)
    Rank Difference:    +2
-   Recommendation:     Focus on ML-specific code quality
+   
 
 3. Reinforcement Learning
    Pattern:            Worse ML quality / Better Python quality
    ML Median:          0.370 smells/1k LOC (Rank 7)
    Python Median:      38.748 smells/1k LOC (Rank 5)
    Rank Difference:    +2
-   Recommendation:     Focus on ML-specific code quality
+   
 
 ======================================================================
 STEP 5: Domain-Specific Effect Sizes
