@@ -4,8 +4,7 @@ This repository contains the complete replication package for our empirical stud
 
 ## Paper Information
 
-**Title:** Comparing ML-Specific and General Python Code Smells Across Project Characteristics  
-**Conference:** ICSME 2026
+**Title:** Comparing ML-Specific and General Python Code Smells Across Project Characteristics
 
 ## Study Overview
 
@@ -154,7 +153,5 @@ This replication package is released under the MIT License. The NICHE dataset is
 For questions about this replication package, please open an issue in this repository.
 
 ## Acknowledgments
-
-This research was funded by [funding information removed for anonymization].
 
 We thank the maintainers of the NICHE dataset and the developers of CodeSmile and Pylint for making this research possible.
